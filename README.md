@@ -1,0 +1,1 @@
+IMG17 Beszédfelismerés ajakmozgás alapján
