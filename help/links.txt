@@ -1,0 +1,23 @@
+Research gate:
+https://www.researchgate.net/publication/317608327_Implication_and_Utilization_of_various_Lip_Reading_Techniques
+https://www.researchgate.net/publication/210333268_Visual_Words_for_Automatic_Lip-_Reading
+( utóbbi a hasznosabb )
+
+Arxiv.org:
+https://arxiv.org/pdf/1611.01599v2.pdf (LipNet: END-TO-END SENTENCE-LEVEL LIPREADING)
+
+Deep Lip Reading:
+http://www.robots.ox.ac.uk/~vgg/research/deep_lip_reading/
+
+datasets:
+http://www.robots.ox.ac.uk/~vgg/data/lip_reading/
+http://spandh.dcs.shef.ac.uk/gridcorpus/
+https://www.kaggle.com/apoorvwatsky/miraclvc1
+http://www.ee.surrey.ac.uk/Projects/LILiR/datasets.html
+
+useful github projects:
+https://github.com/topics/visual-speech-recognition
+https://github.com/rizkiarm/LipNet
+
+YouTube link:
+https://www.youtube.com/watch?v=nGZN1UzKUVs&ab_channel=ComputerVisionLabETHZurich
