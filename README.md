@@ -6,6 +6,7 @@ There are a lot of studies considering speech recognition from visual and audio 
 Our goal is to process different videos, and find out what word was spelled. In our dataset we have different words and for each word we have around 1000 videos.
 
 **1. milestone**
+
 *Data processing*
 
 * data_processing.ipynb
