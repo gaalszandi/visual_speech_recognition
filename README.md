@@ -5,8 +5,7 @@ There are a lot of studies considering speech recognition from visual and audio 
 
 Our goal is to process different videos, and find out what word was spelled. In our dataset we have different words and for each word we have around 1000 videos.
 
-**1. milestone** -----------------------------------------------------------------------------------------------------------------------------------
-
+**1. milestone** ---------------------------------------------------------------------
 *Data processing*
 
 * data_processing.ipynb
@@ -24,7 +23,7 @@ It contains the necessary packages to install.
 
 It contains example input data for the data processing script and the predictor .dat model for mouth detection. After running the script in colab the results are generated in the ./example/output directory.
 
-**2. milestone** ----------------------------------------------------------------------------------------------------------------------------------
+**2. milestone** -------------------------------------------------------------------
 
 *Training model*
 
