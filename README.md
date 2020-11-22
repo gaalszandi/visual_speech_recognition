@@ -5,7 +5,7 @@ There are a lot of studies considering speech recognition from visual and audio 
 
 Our goal is to process different videos, and find out what word was spelled. In our dataset we have different words and for each word we have around 1000 videos.
 
-**1. milestone**
+**1. milestone** -----------------------------------------------------------------------------------------------------------------------------------
 
 *Data processing*
 
@@ -24,7 +24,7 @@ It contains the necessary packages to install.
 
 It contains example input data for the data processing script and the predictor .dat model for mouth detection. After running the script in colab the results are generated in the ./example/output directory.
 
-**2. milestone**
+**2. milestone** ----------------------------------------------------------------------------------------------------------------------------------
 
 *Training model*
 
@@ -33,7 +33,9 @@ It contains example input data for the data processing script and the predictor 
 In the script we implemented a video frame generator class to read training data from directory during training. This class can use transformations given by an ImageDataGenerator type variable for data augmentation as well.
 
 <ins>ResNet + bidirectional GRU</ins>
+
 The idea of the used model is from the document on the link below:
+
 https://arxiv.org/pdf/1703.04105.pdf
 
 This model consists of a frontend part where they use **Conv3D** layers with pooling and batch normalization to extract low-level features from the sequences of the video frames (grayscale images). After that a **ResNet** architecture is used to get higher level features. (It uses 2D convolution) The backend of the network consists of bidirectional **GRU or LSTM** layers. At the end a Dense layer is used with softmax activation for classification. The model can be used with temporal convulation instead of memory cells.
