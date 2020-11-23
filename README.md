@@ -28,7 +28,7 @@ It contains example input data for the data processing script and the predictor 
 
 *Training model*
 
-* training.ipynb
+* training_script.ipynb
 
 In the script we implemented a video frame generator class to read training data from directory during training. This class can use transformations given by an ImageDataGenerator type variable for data augmentation as well.
 
@@ -41,6 +41,8 @@ https://arxiv.org/pdf/1703.04105.pdf
 This model consists of a frontend part where they use **Conv3D** layers with pooling and batch normalization to extract low-level features from the sequences of the video frames (grayscale images). After that a **ResNet** architecture is used to get higher level features. (It uses 2D convolution) The backend of the network consists of bidirectional **GRU or LSTM** layers. At the end a Dense layer is used with softmax activation for classification. The model can be used with temporal convulation instead of memory cells.
 
 The result experiences can be seen after the training cell!
+
+The model is tested on the test set from LRW dataset. The confusion matrix and the detailed results can be seen.
 
 We advise you to run the script in Google Colaboratory. 
 (The script uses a dataset10.zip file which is not included in the repository because  to use the LRW dataset you need to ask permission from the owner. We did that and we got it but it is not permitted to share the content with anyone.)
