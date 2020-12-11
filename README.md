@@ -1,4 +1,12 @@
 # Deep Learning Homework
+
+Csapatnév: Disapproving Corgis
+
+Csapattagok:
+* Nyárády Dorottya
+* Gaál Alexandra
+* Berdó Dániel
+
 ### IMG17 Visual Speech Recognition
 
 There are a lot of studies considering speech recognition from visual and audio sources. Our application is useful for creating subtitles automatic for videos, where the mouth can be seen.
