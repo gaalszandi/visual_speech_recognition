@@ -1,6 +1,14 @@
 # Deep Learning Homework
 ### IMG17 Visual Speech Recognition
 
+Csapatnév: Disapproving Corgis
+
+Csapattagok:
+
+* Nyárády Dorottya
+* Gaál Alexandra
+* Berdó Dániel
+
 There are a lot of studies considering speech recognition from visual and audio sources. Our application is useful for creating subtitles automatic for videos, where the mouth can be seen.
 
 Our goal is to process different videos, and find out what word was spelled. In our dataset we have different words and for each word we have around 1000 videos.
