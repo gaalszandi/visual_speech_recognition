@@ -9,7 +9,7 @@ Csapattagok:
 
 ### IMG17 Visual Speech Recognition
 
-There are a lot of studies considering speech recognition from visual and audio sources. Our application is useful for creating subtitles automatic for videos, where the mouth can be seen.
+There are a lot of studies considering speech recognition from visual and audio sources. We studied the field of lip reading and experimented with a recommended model for the task.
 
 Our goal is to process different videos, and find out what word was spelled. In our dataset we have different words and for each word we have around 1000 videos.
 
