@@ -38,7 +38,7 @@ It contains example input data for the data processing script and the predictor 
 
 * training_script.ipynb
 
-In the script we implemented a video frame generator class to read training data from directory during training. This class can use transformations given by an ImageDataGenerator type variable for data augmentation as well.
+In the script we implemented a video frame generator class to read training data from directory during training. This class can use transformations given by an ImageDataGenerator type variable for data augmentation as well. This script contains the data processing and test phase too.
 
 <ins>ResNet + bidirectional GRU</ins>
 
@@ -52,17 +52,22 @@ The result experiences can be seen after the training cell!
 
 The model is tested on the test set from LRW dataset. The confusion matrix and the detailed results can be seen.
 
-We advise you to run the script in Google Colaboratory. 
-(The script uses a dataset10.zip file which is not included in the repository because  to use the LRW dataset you need to ask permission from the owner. We did that and we got it but it is not permitted to share the content with anyone.)
+We advise you to run the script in Google Colaboratory.
 
-* tb_logs.zip
+**The script uses a dataset10.zip file which is not included in the repository because  to use the LRW dataset you need to ask permission from the owner. We did that and we got it but it is not permitted to share the content with anyone.**
 
-It contains the training results in tensorboard logs. You can open it with the Run Tensorboard block if you set the correct path.
+* hyperparameter_opt.ipynb
 
-* trained_models.zip
+In this script we implemented the hyperparameter optiization on networks with 10 class with Hyperas package.
 
-It contains the best trained model so far.
+* test_script.ipynb
 
-* label.txt
+In this script we evaluated our best model on the test set. You can find the model and the logs of the training in the trainings/best10class_training.zip.
 
-It contains the labels of the trained models in order.
+* trainings directory
+
+It contains the label files and the training results in tensorboard logs. You can open it with the Run Tensorboard block if you set the correct path in the training_script.ipynb
+
+* Documentation directory
+
+It contains our documentation from the project so far.
