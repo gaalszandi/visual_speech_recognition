@@ -7,6 +7,8 @@ Csapattagok:
 * Gaál Alexandra
 * Berdó Dániel
 
+Link for the video: https://youtu.be/f50Uz1H44qQ
+
 ### IMG17 Visual Speech Recognition
 
 There are a lot of studies considering speech recognition from visual and audio sources. We studied the field of lip reading and experimented with a recommended model for the task.
